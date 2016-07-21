@@ -31,6 +31,22 @@ public class MiSistemaIluminacion {
         sen1.agregarLuminaria(lum5);
         
         sen1.setMedida(1000);
+        
+        
+        ILuminaria lum6 = new Luminaria(6);
+        ILuminaria lum7 = new Luminaria(7);
+        ILuminaria lum8 = new Luminaria(8);
+        ILuminaria lum9 = new Luminaria(9);
+        ILuminaria lum10 = new Luminaria(10);
+        
+        
+        sen2.agregarLuminaria(lum6);
+        sen2.agregarLuminaria(lum7);
+        sen2.agregarLuminaria(lum8);
+        sen2.agregarLuminaria(lum9);
+        sen2.agregarLuminaria(lum10);
+        
+        sen2.setMedida(11);
 
     }
 }

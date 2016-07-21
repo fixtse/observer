@@ -6,11 +6,13 @@ public abstract class Sensor {
     private String ubicacion;
     private double medida;
     private List<ILuminaria> listaDeLuminarias = new ArrayList<ILuminaria>();
+    
     public Sensor(int codigo, String ubicacion){
         this.codigo = codigo;
         this.ubicacion = ubicacion;
         this.medida = 0;
     }
+    
     public int getCodigo() {
         return codigo;
     }
