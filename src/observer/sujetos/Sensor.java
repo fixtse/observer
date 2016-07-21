@@ -43,7 +43,9 @@ public abstract class Sensor {
         listaDeLuminarias.remove(luminaria);
     }
     public void notificar(){
-
+        for (ILuminaria listaDeLuminaria : listaDeLuminarias) {
+            listaDeLuminaria.actualizarEstado(this);
+        }
 
     }
 }
